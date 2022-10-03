@@ -37,7 +37,7 @@ public:
     };
 protected:
     int A, B, C;
-    double a, b, c;
+    int a, b, c;
 };
 
 class Quadrangle : public Figure {
@@ -61,7 +61,7 @@ public:
     };
 protected:
     int A, B, C, D;
-    double a, b, c, d;
+    int a, b, c, d;
 };
 
 class RightTriangle : public Triangle {
